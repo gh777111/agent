@@ -31,3 +31,11 @@
 ## 진행중
 - [2026-03-25] `git init` 상태 점검 후 변경사항 로컬 커밋(`ba04a3c`) 완료
 - [2026-03-25] GitHub 원격 저장소 연결 및 push 준비 완료 대기 중
+
+## 완료
+- [2026-03-25] GitHub CLI(`gh`)로 공개 저장소 생성(`https://github.com/gh777111/agent`) 및 `origin` 원격 등록 완료
+- [2026-03-25] `git push -u origin main`로 커밋 `ba04a3c`, `52c0d1f` 원격 반영 완료
+
+## 검증
+- [2026-03-25] `git remote -v`에서 `origin=https://github.com/gh777111/agent.git` 확인
+- [2026-03-25] `git log`에서 `origin/main`이 `52c0d1f`(HEAD)로 반영된 것 확인
